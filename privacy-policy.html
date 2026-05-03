@@ -12,13 +12,20 @@
       padding: 0 20px;
       line-height: 1.6;
       color: #222;
+      background: #ffffff;
     }
+
     h1, h2 {
       color: #1f3d2b;
     }
+
     h1 {
       border-bottom: 1px solid #ddd;
       padding-bottom: 10px;
+    }
+
+    a {
+      color: #1f6feb;
     }
   </style>
 </head>
@@ -42,8 +49,8 @@
   </p>
 
   <p>
-    This information is stored on the user’s device unless a future version clearly
-    adds optional cloud sync.
+    This information is stored locally on the user’s device unless a future version
+    clearly adds optional cloud sync.
   </p>
 
   <h2>Camera and Barcode Scanning</h2>
@@ -54,39 +61,54 @@
   </p>
 
   <p>
-    Camera access is used only for barcode scanning. Eat First does not store camera
-    photos or videos.
+    Camera access is used only for barcode scanning. Barcode detection happens on
+    the device using the app’s camera scanning feature.
   </p>
 
   <p>
-    When a barcode is scanned, the app may use the barcode number to look up product
-    information, such as product name or related product details, if that feature is
-    enabled in the app.
+    Eat First does not store camera photos, video, or camera frames.
   </p>
 
   <p>
-    Barcode scan results and auto-filled product information may be saved locally as
-    part of the user’s food item list.
+    When a barcode is scanned, Eat First may send the barcode number to Open Food
+    Facts to look up product information, such as the product name or related
+    product details.
   </p>
 
-  <h2>Expiration Dates</h2>
+  <p>
+    The barcode number is sent to Open Food Facts using a product lookup request.
+    Eat First does not store the barcode number after the lookup is complete.
+  </p>
 
   <p>
-    Eat First may allow users to enter expiration dates manually. If the app suggests
-    or auto-fills expiration-related information, users should verify the information
-    before relying on it.
+    If the user chooses to save the scanned item, any auto-filled product information
+    saved by the user may be stored locally on the user’s device as part of their
+    food tracking list.
+  </p>
+
+  <h2>Expiration Dates and Reminders</h2>
+
+  <p>
+    Eat First allows users to enter expiration dates manually and may provide
+    reminders based on those dates.
+  </p>
+
+  <p>
+    If the app suggests or auto-fills expiration-related information, users should
+    verify the information before relying on it.
   </p>
 
   <p>
     Expiration reminders are provided for convenience and should not be treated as
-    food-safety advice.
+    food-safety advice. Users are responsible for checking food condition, packaging,
+    storage instructions, and safety before consuming any item.
   </p>
 
   <h2>Purchases and Subscriptions</h2>
 
   <p>
-    Eat First may offer optional paid subscriptions through Apple App Store In-App
-    Purchase or Google Play Billing.
+    Eat First may offer optional paid subscriptions through Apple App Store
+    In-App Purchase or Google Play Billing.
   </p>
 
   <p>
@@ -99,8 +121,13 @@
 
   <p>
     Eat First uses local device storage to save food tracking data, shopping list
-    data, barcode scan results, product information, app settings, expiration alert
-    preferences, and premium feature preferences.
+    data, saved product information, app settings, expiration alert preferences, and
+    premium feature preferences.
+  </p>
+
+  <p>
+    Scanned barcode numbers are not stored after product lookup unless a future
+    version clearly adds that feature.
   </p>
 
   <h2>Data Sharing</h2>
@@ -110,16 +137,36 @@
   </p>
 
   <p>
+    Eat First may send scanned barcode numbers to Open Food Facts only for product
+    lookup. Camera photos, video, and camera frames are not sent to Open Food Facts.
+  </p>
+
+  <p>
     Eat First may share limited purchase-related information with RevenueCat, Apple,
     or Google only as needed to process subscriptions, validate purchases, restore
     purchases, and manage premium access.
   </p>
 
+  <h2>Third-Party Services</h2>
+
   <p>
-    If barcode lookup uses a third-party product database or API, barcode numbers
-    may be sent to that service to retrieve product information. Eat First does not
-    send camera photos or videos for barcode lookup.
+    Eat First may use the following third-party services:
   </p>
+
+  <ul>
+    <li>
+      <strong>Open Food Facts:</strong> used to look up product information from
+      scanned barcode numbers.
+    </li>
+    <li>
+      <strong>RevenueCat:</strong> used to help manage subscription status,
+      purchase validation, and premium access.
+    </li>
+    <li>
+      <strong>Apple App Store and Google Play:</strong> used to process in-app
+      purchases and subscriptions.
+    </li>
+  </ul>
 
   <h2>Data Deletion</h2>
 
@@ -133,6 +180,13 @@
 
   <p>
     Eat First is not directed toward children under 13.
+  </p>
+
+  <h2>Changes to This Policy</h2>
+
+  <p>
+    This Privacy Policy may be updated from time to time. Any changes will be posted
+    on this page with an updated effective date.
   </p>
 
   <h2>Contact</h2>
